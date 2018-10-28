@@ -1,42 +1,33 @@
 {
-  "name": "lz-string",
-  "version": "1.4.4",
-  "license": "WTFPL",
+  "name": "@scssyworks/lzstring",
+  "version": "0.1.0",
+  "license": "MIT",
   "filename": "lz-string.js",
   "description": "LZ-based compression algorithm",
-  "homepage": "http://pieroxy.net/blog/pages/lz-string/index.html",
   "keywords": [
     "lz",
     "compression",
     "string"
   ],
-  "main": "libs/lz-string.js",
+  "main": "dist/lzString.js",
+  "module": "src/lz-string.js",
   "typings": "typings/lz-string.d.ts",
-  "bin": {
-    "lz-string": "bin/bin.js"
+  "scripts": {
+    "build": "rollup -c"
   },
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-uglify": "^6.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pieroxy/lz-string.git"
+    "url": "https://github.com/scssyworks/lz-string.git"
   },
   "bugs": {
-    "url": "https://github.com/pieroxy/lz-string/issues"
+    "url": "https://github.com/scssyworks/lz-string/issues"
   },
-  "directories": {
-    "test": "tests"
-  },
-  "author": "pieroxy <pieroxy@pieroxy.net>",
-  "autoupdate": {
-     "source": "git",
-     "target": "git://github.com/pieroxy/lz-string.git",
-     "basePath": "libs/",
-     "files": [
-      "lz-string.js",
-      "lz-string.min.js",
-      "base64-string.js"
-     ]
-   }
+  "author": "Sachin Singh <contactsachinsingh@gmail.com>"
 }
