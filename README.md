@@ -4,7 +4,7 @@ LZ-based compression algorithm for JavaScript.
 
 <b>Note:</b> This is a forked library of <a href="http://pieroxy.net/blog/pages/lz-string/index.html">Pieroxy's</a> lz-string library.
 
-The library works in the same manner as <a href="http://pieroxy.net/blog/pages/lz-string/index.html">Pieroxy's</a> lz-string, except that this is a UMD build. The original library supported cjs, angular and requirejs. This on the other hand does not support angular. If you want to use it with angular, please continue reading below or click on the link above to download the original library instead.
+The library works in the same manner as <a href="http://pieroxy.net/blog/pages/lz-string/index.html">Pieroxy's</a> lz-string, except that this is a UMD build. The original library supports cjs, angular and requirejs. This on the other hand does not support angular. If you want to use it with angular, please continue reading below or click on the link above to download the original library instead.
 
 This library comes with bug fixes which are not part of original library yet. If you still find any issues please feel free to log them.
 
