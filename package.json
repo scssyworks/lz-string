@@ -1,8 +1,7 @@
 {
-  "name": "@scssyworks/lzstring",
+  "name": "lznext",
   "version": "0.1.0",
   "license": "MIT",
-  "filename": "lz-string.js",
   "description": "LZ-based compression algorithm",
   "keywords": [
     "lz",

@@ -10,19 +10,19 @@ This library comes with bug fixes which are not part of original library yet. If
 
 # install
 ```shell
-$ npm install -g @scssyworks/lzstring
+$ npm install -g lznext
 ```
 
 cjs:
 
 ```js
-const LZString = require('@scssyworks/lzstring');
+const LZString = require('lznext');
 ```
 
 es6:
 
 ```js
-import LZString from '@scssyworks/lzstring';
+import LZString from 'lznext';
 ```
 
 es5:
