@@ -1,4 +1,4 @@
-# lzString
+# lznext
 
 LZ-based compression algorithm for JavaScript.
 
