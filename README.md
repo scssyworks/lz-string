@@ -10,7 +10,7 @@ This library comes with bug fixes which are not part of original library yet. If
 
 # install
 ```shell
-$ npm install -g lznext
+$ npm install -save lznext
 ```
 
 cjs:
